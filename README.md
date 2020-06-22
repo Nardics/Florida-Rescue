@@ -4,11 +4,10 @@ Florida is usually at risk of natural disaster during the Atlantic hurricane sea
 Florida also has an aging population as it is popular with retirees. The project aims to look at the population distribution for individuals 65 years and above, in relation to the available hospital and rescue centres. 
 Hence, due to the increased frailty of their health, this older population may be in need of assistance in times of emergency.
 
-Criteria for the project are :
-major highways
-proximity ofo shelters to hospitals
-shelter wheelchair access
-population density by age
+Features Required for the project are :
+Major highways
+Hospital and Evacuation Center point locations
+County population data
 
 ## Data Sources
 
