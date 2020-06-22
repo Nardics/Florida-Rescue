@@ -1,8 +1,8 @@
-# Emergency_shelters
-The purpose of this project it so assess the availability of emergency shelters to the older population. This exercise will focus on the state of Florida.
+#  Florida Evacuation Shelters and Hospitals
+<p>The purpose of this project it so assess the availability of emergency shelters to the older population. This exercise will focus on the state of Florida.
 Florida is usually at risk of natural disaster during the Atlantic hurricane season, which runs from June 1 to November 30.
-Florida also has an aging population as it is popular with retirees. The project aims to look at the population distribution for individuals 65 years and above, in relation to the available hospital and rescue centres. 
-Hence, due to the increased frailty of their health, this older population may be in need of assistance in times of emergency.
+<p>Florida also has an aging population as it is popular with retirees. The project aims to look at the population distribution for individuals 65 years and above, in relation to the available hospital and rescue centres. 
+<p>Hence, due to the increased frailty of their health, this older population may be in need of assistance in times of emergency.
 
 Features Required for the project are :
 Major highways
