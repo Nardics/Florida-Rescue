@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Florida Rescue Centers and Hospitals</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<link rel='icon' href='/favicon.ico' type='image/x-icon' >
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,900i" rel="stylesheet">
+
+	<style>
+		/* 
+			UK Colors: 
+            #c7c9c8 light gray 
+            #63666a dark gray
+            #15397f dark blue
+            #009bda light blue
+            #0033a0 official blue
+        */
+		body {
+			margin: 0;
+			padding: 0;
+			background: #c7c9c8;
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			color: #3d3d3d;
+			font-size: 1.1em;
+
+		}
+
+		section {
+			width: 80%;
+			margin: 10px auto;
+		}
+
+		h1 {
+			font-family: 'Lato', sans-serif;
+			font-weight: 900i;
+			font-size: 2.6em;
+			font-style: italic;
+			/* The em unit. 3x the current size */
+			letter-spacing: .02em;
+			margin: 0 0 15px 0;
+			/* text-transform: uppercase; */
+		}
+
+		h2 {
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			color: #63666a;
+			font-size: 1.5em;
+			letter-spacing: .06em;
+			font-style: italic;
+			margin: 0 0 25px 0;
+		}
+		
+		h3 {
+			font-size: 1.2em;
+		}
+
+
+		p {
+			font-size: 1.15em;
+			line-height: 1.8em;
+			margin: 0 0 25px 0;
+		}
+
+		a {
+			color: #15397f;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding: 0px 20px 4px 20px;
+			/* font-size: 0.96em; */
+			line-height: 1.6em;
+			color: #63666a;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		hr{
+			margin-top: 20px;
+			border: 0;
+    		height: 1px;
+    		background: #63666a;
+    		background-image: linear-gradient(to right, #c7c9c8, #63666a, #c7c9c8);
+		}
+
+		#map {
+			width: 100%;
+			margin: 0px auto;
+
+		}
+
+		.max-image-width {
+			width: 100%;
+		}
+
+		/* add custom style class here */
+
+		.linkbox {
+			margin: 3px 0 20px 0;
+			display: block;
+			font-weight: 300;
+		}
+
+
+		/* Use float property to make two-column layout */
+
+		.first-column {
+			float: left;
+			width: 48%;
+			padding-right: 20px;
+		}
+
+		.column {
+			float: left;
+			width: 48%;
+		}
+
+		/* Clear floats after the columns */
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* When browser is 800px wide or less */
+
+		@media screen and (max-width: 800px) {
+
+			.first-column,
+			.column {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<iframe src="html/zoomed.html" width="100%" height="440px"></iframe>
+	<section>
+		<a href='html/wide.html' class="linkbox">Full-screen version</a>
+		<div class="linkbox">
+		
+		</div>
+		<meta The purpose of this project it so assess the availability of emergency shelters to the older population. This exercise will focus on the state of Florida.
+		Florida is usually at risk of natural disaster during the Atlantic hurricane season, which runs from June 1 to November 30.
+		Florida also has an aging population as it is popular with retirees. The project aims to look at the population distribution for individuals 65 years and above, 
+		in relation to the available hospital and rescue centres. 
+		Hence, due to the increased frailty of their health, this older population may be in need of assistance in times of emergency.
+		meta>
+
+		<img src="graphics/footprints.jpg" style="float:left;display:inline-block;width:75px;margin:-8px 10px -8px 0;">
+		<h1>Where Are the Hospitals and Shelters?</h1>
+		<h2>New Maps Plus</h2>
+
+		<div class="row">
+			<div class="first-column">
+
+				<h3>The State of 65+</h3>
+				<p>
+			Florida is home to many retirees who head south to escape the colder winter months, as well as to permanently reside. Its appeal comes with a risk- 
+			the Atlantic Hurricane season- which potentially puts them in danger of surging tides and other perils.
+			<p>As such, the older population may become more reliant on temporary housing, such as a shelter, in the event of any
+			disaster. Additionally, older populations tend to
+			utilize medical services more heavily.<p> </p>
+			<p>The accompanying maps show population density distribution of those 65 and over, in relation to the location of hospital and rescue shelters in the state.</p>
+			
+			</p>
+			<p><img src="graphics/broward_health_med_center.jpg"style="width:475px;margin:-8px 10px -8px 0;">
+			</p><a href="https://www.sunny.org/listings/broward-health-medical-center-salah-foundation-childrens-hospital/2699/">Broward Health Medical Center	<a></a><p></p>
+			
+			<p>
+			<p><img src="graphics/saintjames_cathedral_school.jpg"style="width:475px;margin:-8px 10px -8px 0;">
+			</p>
+			<a href="https://www.facebook.com/STJCS.Orlando/">St. James Cathedral School<a></a><p></p>
+				<hr class="styled">
+			
+	
+				<h3>Data used in this project</h3>
+	
+				<p>
+					Shelter locations:<a href="https://hifld-geoplatform.opendata.arcgis.com/datasets/national-shelter-system-facilities/data">National Shelter System Facilities<a></a><p></p>
+					Major Highways:<a href="https://catalog.data.gov/dataset/tiger-line-shapefile-2013-state-florida-primary-and-secondary-roads-state-based-shapefile">U.S. Census Bureau</a><p></p>
+					State Shapefile:<a href="https://www2.census.gov/geo/tiger/GENZ2017/shp/cb_2017_us_state_500k.zip">U.S. Census Bureau</a><p></p>
+					Counties:<a href="https://www2.census.gov/geo/tiger/GENZ2017/shp/cb_2017_us_county_500k.zip">U.S. Census Bureau</a><p></p>
+					Population Data:<a href="http://www.flhealthcharts.com/FLQUERY/Population/PopulationRpt.aspx">Florida Department of Health</a><p></p>
+					
+						
+					
+					
+					
+			
+				<hr class="styled">
+				<h3>Resources Employed</h3>
+				<ul>
+					<li>QGIS 3.12.1, on Windows 10 Machine.</li>
+					<li>Data is shown on Mapbox web map with geolocation services enabled.</li>
+					<li>EPSG:4269</li>
+				
+					
+					</ul>
+					<div class="row">
+					
+					<section></section>
+					<hr class="styled">
+					<h3> Contact</h3>
+					<li>Follow me on twitter: <a href="https://twitter.com/BajanTheNard">@BajanTheNard</a>
+					<li>See my project on Github:<a href="https://nardics.github.io">Florida Rescue Centers and Hospitals</a>
+						
+
+						
+					</div>					
+								
+					</ul>
+						<!-- <h3>Additional maps of the Arches</h3>
+					<ul>
+						<li><a href="/waterways">Major waterways of Kentucky</a></li>
+						<li><a href="/population">Kentucly's population density</a></li>
+						<li><a href="/springs">Springs in Kentucky</a></li>
+					</ul> -->
+					</p>
+					<!-- 
+				<h3>Student media</h3>
+				<iframe src="https://player.vimeo.com/video/267871470" width="100%" height="360" frameborder="0" allowfullscreen></iframe>
+				<p class="linkbox">Photos of Hootentown Arch</p>-->
+
+			</div>
+			<div class="column">
+			<img class="max-image-width" src="graphics/Retirees_1200px.jpg" title="Population Density Distribution">
+			<div class="linkbox">Population Density Distribution
+			<p></p><a href="graphics/Retirees_8000px.jpg"> High Resolution Map</a>
+			<p></p>
+			
+			
+			<break>
+			<break>
+			
+			<img class="max-image-width" src="graphics/Infrastructure_1200px.jpg" title="Infrastructure">
+			<div class="linkbox"> Road Infrastructure and Urban Areas <a href="graphics/Infrastructure_8000px.jpg"> <p></p>High Resolution Map</a></div>
+
+			<img class="max-image-width" src="graphics/Rescue_1200px.jpg" title="Hospitals and Rescue Centers">
+			<div class="linkbox">Hospitals and Rescue Centers<a href="graphics/Rescue_8000px.jpg"><p></p> High Resolution Map</a></div>
+
+	
+		</div>
+				<!-- <h4><a href="https://uky-gis.github.io">UKy GIS and Mapping</a></h4> -->
+			</div>	
+		
+			<div class="row">
+				<center><a href="https://uky-gis.github.io">
+					<img src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+						alt="University of Kentucky Geography"></a>
+				<a href="https://newmapsplus.as.uky.edu">
+					<img src="https://newmapsplus.as.uky.edu/sites/default/files/NMP%20Logo.png" alt="New Maps Plus"></a>
+			<p>
+			</p>
+			<break>
+			</div>
+			</center> 
+			<p>
+			
+			</break>
+
+	</section>
+
+
+</body>
+
+</html>
